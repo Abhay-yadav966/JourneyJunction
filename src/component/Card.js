@@ -13,7 +13,7 @@ function Card( { id, name, info, image, price, removeTour} ){
     }
 
     return(
-        <div className="card" >
+        <div className="card" > 
             
             <img src={image} alt="" className="image" />
 
