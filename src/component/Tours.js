@@ -15,7 +15,7 @@ function Tours({ttours , removeTour}){
                             <Card {...tour} removeTour = {removeTour} ></Card>
                         );
                     } )
-                }
+                } 
             </div> 
         </div>
     );
