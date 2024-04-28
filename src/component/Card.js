@@ -7,7 +7,7 @@ function Card( { id, name, info, image, price, removeTour} ){
     
     const Description = readmore ? info : `${info.substring( 0 , 200 )}....`;
     
-    
+     
     function readMoreHandler(){
     setReadmore(!readmore);
     }

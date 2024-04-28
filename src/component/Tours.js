@@ -16,7 +16,7 @@ function Tours({ttours , removeTour}){
                         );
                     } )
                 }
-            </div>
+            </div> 
         </div>
     );
 }
