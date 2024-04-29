@@ -1,0 +1,129 @@
+/* write your css here */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_contain{
+    margin: 6vh;
+    border: 7px dashed rgb(1, 70, 160);
+    border-radius: 20px;
+    padding: 1vh 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.cards{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba( 0, 0, 0, 0.24 ) 0px 3px 8px;
+}
+
+.image{
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.tourInfo{
+    margin: 20px 5px;
+}
+
+.tour_price{
+    color: #1faa59;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.tour_name{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.readMore{
+    color: #4FB5E9;
+    cursor: pointer;
+}
+
+.btn_red{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 80px;
+    border: 1px solid #b41;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 18px;
+    background-color: #F4DDDE;
+    transition: all 0.2s;
+}
+
+.btn_red:hover{
+    background-color: red;
+    color: white;
+}
+
+.refresh{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.refresh h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+     margin-bottom: 18px; 
+}
+
+.btn_white{
+    border: 1px solid white;
+    padding: 10px 80px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn_white:hover{
+    background-color: white;
+}
